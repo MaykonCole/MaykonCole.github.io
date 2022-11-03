@@ -21,7 +21,7 @@ img {
     padding-top: 1%;
    font-size: 200px; 
     text-align: center;
-    color: white;
+    color: #a61473;
 }
 
 .caixa-conteudo {
@@ -37,6 +37,7 @@ img {
     color: rgb(234, 13, 190);
     text-align: center;
     text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p {
@@ -44,7 +45,8 @@ p {
     padding-left: 2%;
     padding-right: 1%;
     color: black;
-    font-size: 3.5vh;
+    font-size: 90px;
+    font-family: monospace;
 }
 
 .caixa-rodape {
@@ -84,3 +86,19 @@ a:hover {
 .caixa-topo:hover {
     background-color: black;
 }
+
+@media screen and (max-width: 1700px) {
+   p {
+     font-size: 80px;
+   }
+
+   img {
+    visibility: hidden;
+}
+}
+
+@media screen and (max-width: 1350px) {
+    p {
+      font-size: 60px;
+    }
+ }
